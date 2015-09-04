@@ -1,0 +1,22 @@
+{
+    "name": "jawish/fis",
+    "type": "library",
+    "description": "Gets latest information on inbound and outbound flights for Ibrahim Nasir International Airport, Maldives.",
+    "keywords": ["maldives", "hulhule", "inia", "flights"],
+    "license": "MIT",
+    "authors": [
+    	{
+    		"name": "Jawish Hameed",
+    		"email": "jawish@gmail.com",
+    		"homepage": "http://jawish.org"
+    	}
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Jawish\\": "src"
+    	}
+    }
+}
